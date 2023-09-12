@@ -13,6 +13,9 @@ body{
     padding: 2rem;
     color: #000000;
     margin-top: 8.5rem;
+    margin-top: 8.5rem;
+    box-shadow: 30px 20px #160a28;
+    transition: 0.5s;
 }
   
 .title {
@@ -136,8 +139,8 @@ body{
     width: 6.25em;
     height: 3.125em;
     background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, #2a2a2a)) no-repeat;
-    background: -o-linear-gradient(left, #ffffff 50%, #313131 50%) no-repeat;
-    background: linear-gradient(to right, #ffffff 50%, #313131 50%) no-repeat;
+    background: -o-linear-gradient(left, #ffffff 50%, #a0a0a0 50%) no-repeat;
+    background: linear-gradient(to right, #ffffff 50%, #a0a0a0 50%) no-repeat;
     background-size: 205%;
     background-position: 0;
     -webkit-transition: 0.4s;

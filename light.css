@@ -5,6 +5,7 @@ body{
     justify-content: center;
     background-image: url(/img/bg.png);
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
 }
 
 .light .form-container {
@@ -13,7 +14,7 @@ body{
     background-color: #160a28;
     padding: 2rem;
     color: #ffffff;
-    margin-top: 6.5rem;
+    margin-top: 8.5rem;
 }
   
 .light .title {
@@ -43,7 +44,7 @@ body{
 .light .inputs input {
     width: 90%;
     border-radius: 0.375rem;
-    border: 2px solid #820ad1;
+    border: 2px solid #0f0019;
     outline: 0;
     background-color: #0f0019;
     padding: 0.75rem 1rem;
@@ -52,6 +53,7 @@ body{
   
 .light .inputs input:focus {
     border-color: #820ad1;
+    transition: 1s;
 }
   
 .light .forgot {

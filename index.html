@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="light.css">
     <title>FormJs</title>
 </head>
-<body>
+<body class="dark">
     <div class="form-container">
+        <label id="switch">
+            <input type="checkbox" class="theme-checkbox">
+        </label>      
         <p class="title">Login</p>
         <form class="form">
-            <div class="input-group">
+            <div class="inputs">
                 <label for="username">Username</label>
                 <input type="text" name="username" id="username" placeholder="">
             </div>
-            <div class="input-group">
+            <div class="inputs">
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" placeholder="">
                 <div class="forgot">
@@ -25,7 +29,7 @@
         </form>
         <div class="social-message">
             <div class="line"></div>
-            <p class="message">Login with social accounts</p>
+            <p class="message">Register with social accounts</p>
             <div class="line"></div>
         </div>
         <div class="social-icons">
@@ -45,9 +49,7 @@
                 </svg>
             </button>
         </div>
-        <p class="signup">Don't have an account?
-            <a rel="noopener noreferrer" href="#" class="">Sign up</a>
-        </p>
     </div>
+    <script src="/main.js"></script>
 </body>
 </html>
